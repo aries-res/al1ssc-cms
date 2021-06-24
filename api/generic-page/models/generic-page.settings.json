@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generic_pages",
+  "info": {
+    "name": "genericPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "url": {
+      "type": "string",
+      "default": "/",
+      "unique": true,
+      "required": true
+    },
+    "submenuParent": {
+      "type": "json"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "general.rich-text",
+        "general.app",
+        "general.news"
+      ]
+    }
+  }
+}

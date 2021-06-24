@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_sections_abouts",
+  "info": {
+    "name": "about",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "About",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.captioned-image",
+      "required": true,
+      "min": 2
+    }
+  }
+}

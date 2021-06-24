@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_general_news",
+  "info": {
+    "name": "entireCollection",
+    "icon": "th-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "collectionType": {
+      "type": "enumeration",
+      "enum": [
+        "NewsPosts",
+        "FAQs"
+      ]
+    }
+  }
+}

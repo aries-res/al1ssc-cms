@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_header_submenus",
+  "info": {
+    "name": "submenu",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pages": {
+      "collection": "generic-page"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

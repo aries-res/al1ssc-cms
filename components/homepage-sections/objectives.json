@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_sections_objectives",
+  "info": {
+    "name": "objectives",
+    "icon": "bullseye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Objectives",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "Aditya-L1 Science Support Cell has the following goals"
+    }
+  }
+}

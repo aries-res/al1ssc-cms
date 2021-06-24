@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_header_menu_items",
+  "info": {
+    "name": "menuItem",
+    "icon": "ellipsis-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "model": "generic-page"
+    }
+  }
+}

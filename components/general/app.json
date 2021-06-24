@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_general_apps",
+  "info": {
+    "name": "app",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "app": {
+      "model": "app"
+    }
+  }
+}
