@@ -10,8 +10,8 @@
     "collectionType": {
       "type": "enumeration",
       "enum": [
-        "NewsPosts",
-        "FAQs"
+        "news_posts",
+        "faqs"
       ]
     }
   }

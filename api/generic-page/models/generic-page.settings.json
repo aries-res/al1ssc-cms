@@ -30,7 +30,7 @@
       "components": [
         "general.rich-text",
         "general.app",
-        "general.news"
+        "general.entire-collection"
       ]
     }
   }
