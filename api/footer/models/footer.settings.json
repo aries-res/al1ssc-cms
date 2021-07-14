@@ -11,12 +11,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "menu": {
-      "type": "dynamiczone",
-      "components": [
-        "general.menu-item",
-        "general.submenu"
-      ]
+    "hyperlinkedLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.hyperlinked-logo"
     }
   }
 }

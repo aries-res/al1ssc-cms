@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_general_hyperlinked_logos",
+  "info": {
+    "name": "hyperlinkedLogo",
+    "icon": "square"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
