@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_sections_news",
+  "info": {
+    "name": "news",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "News & Updates"
+    },
+    "numOfPosts": {
+      "type": "integer",
+      "default": 3,
+      "required": true,
+      "max": 9,
+      "min": 3
+    },
+    "allPostsLink": {
+      "type": "string",
+      "default": "/news",
+      "required": true
+    }
+  }
+}

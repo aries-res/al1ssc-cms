@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "bannerDescription": {
-      "type": "text",
-      "required": true,
-      "default": "A community service centre to help in doing scientific research using Aditya-L1",
-      "maxLength": 120
-    },
     "about": {
       "type": "component",
       "repeatable": false,
@@ -28,6 +22,21 @@
       "type": "component",
       "repeatable": false,
       "component": "homepage-sections.objectives"
+    },
+    "news": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage-sections.news"
+    },
+    "resources": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage-sections.resources"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage-sections.banner"
     }
   }
 }

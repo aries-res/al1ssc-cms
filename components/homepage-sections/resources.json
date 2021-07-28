@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_sections_resources",
+  "info": {
+    "name": "resources",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Resources",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "default": "Here are a few quick links to the resources we provide.",
+      "required": true,
+      "unique": false
+    }
+  }
+}
