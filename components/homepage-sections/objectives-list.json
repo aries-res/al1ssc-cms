@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_sections_objectives_lists",
+  "info": {
+    "name": "objectivesList",
+    "icon": "bowling-ball"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "serialNo": {
+      "type": "integer",
+      "min": 1
+    }
+  }
+}

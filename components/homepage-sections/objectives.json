@@ -16,6 +16,13 @@
       "type": "text",
       "required": true,
       "default": "Aditya-L1 Science Support Cell has the following goals"
+    },
+    "objectivesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage-sections.objectives-list",
+      "min": 2,
+      "required": true
     }
   }
 }

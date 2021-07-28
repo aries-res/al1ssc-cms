@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_sections_resources_lists",
+  "info": {
+    "name": "resourcesList",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "pageLink": {
+      "model": "generic-page"
+    }
+  }
+}
