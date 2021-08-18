@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_general_analysis_tools",
+  "info": {
+    "name": "analysisTool",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "toolName": {
+      "type": "enumeration",
+      "enum": [
+        "orbit_tool"
+      ]
+    }
+  }
+}

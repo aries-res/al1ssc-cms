@@ -29,8 +29,8 @@
       "type": "dynamiczone",
       "components": [
         "general.rich-text",
-        "general.app",
-        "general.entire-collection"
+        "general.entire-collection",
+        "general.analysis-tool"
       ]
     }
   }
